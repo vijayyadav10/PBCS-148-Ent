@@ -1,0 +1,9 @@
+{
+    "microservices": [],
+    "microfrontends": [],
+    "svc": [],
+    "name": "single-content-widget",
+    "version": "0.0.1",
+    "description": "single-content-widget description",
+    "type": "bundle"
+}
