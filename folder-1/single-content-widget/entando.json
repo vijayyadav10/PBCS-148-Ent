@@ -1,6 +1,22 @@
 {
     "microservices": [],
-    "microfrontends": [],
+    "microfrontends": [
+        {
+            "name": "et-widget-config",
+            "customElement": "single-content-widget-config",
+            "stack": "react",
+            "type": "widget-config",
+            "group": "free",
+            "titles": {
+                "en": "Another MFE",
+                "it": "Un altro MFE"
+            },
+            "commands": {
+                "run": "npm install && PORT=3001 npm start"
+            },
+            "configMfe": "et-widget-config"
+        }
+    ],
     "svc": [],
     "name": "single-content-widget",
     "version": "0.0.1",
