@@ -5,8 +5,12 @@
             "name": "et-widget-config",
             "customElement": "single-content-widget-config",
             "stack": "react",
-            "type": "widget-config",
+            "type": "widget",
             "group": "free",
+            "titles": {
+                "en": "SW-en MFE",
+                "it": "SW-it MFE"
+              },
             "commands": {
                 "run": "npm install && PORT=3001 npm start"
             }
